@@ -1,0 +1,402 @@
+{
+  "personal_info": {
+    "full_name": "Aditya Jain",
+    "email": "adityashishjain@gmail.com",
+    "phone": "+91-7417000999",
+    "location": "",
+    "portfolio_url": "https://adityajain-portfolio.vercel.app/",
+    "linkedin_url": "https://www.linkedin.com/in/aditya-jain-a94425200/",
+    "explicit_years_of_experience": "1.9"
+  },
+  "professional_summary": "",
+  "core_competencies": [
+    {
+      "skill": "RAG Pipelines",
+      "proficiency_level": "advanced",
+      "years_experience": 0
+    },
+    {
+      "skill": "LLMs",
+      "proficiency_level": "advanced",
+      "years_experience": 0
+    },
+    {
+      "skill": "LangChain",
+      "proficiency_level": "advanced",
+      "years_experience": 0
+    },
+    {
+      "skill": "Cursor",
+      "proficiency_level": "advanced",
+      "years_experience": 0
+    },
+    {
+      "skill": "Microsoft Foundry",
+      "proficiency_level": "advanced",
+      "years_experience": 0
+    },
+    {
+      "skill": "VectorDB",
+      "proficiency_level": "advanced",
+      "years_experience": 0
+    },
+    {
+      "skill": "PyTorch",
+      "proficiency_level": "advanced",
+      "years_experience": 0
+    },
+    {
+      "skill": "PaddleOCR",
+      "proficiency_level": "advanced",
+      "years_experience": 0
+    },
+    {
+      "skill": "SAM2",
+      "proficiency_level": "advanced",
+      "years_experience": 0
+    },
+    {
+      "skill": "YOLOv8",
+      "proficiency_level": "advanced",
+      "years_experience": 0
+    },
+    {
+      "skill": "OpenCV",
+      "proficiency_level": "advanced",
+      "years_experience": 0
+    },
+    {
+      "skill": "Python",
+      "proficiency_level": "advanced",
+      "years_experience": 0
+    },
+    {
+      "skill": "SQL",
+      "proficiency_level": "advanced",
+      "years_experience": 0
+    },
+    {
+      "skill": "Neo4j (Cypher)",
+      "proficiency_level": "advanced",
+      "years_experience": 0
+    },
+    {
+      "skill": "MongoDB",
+      "proficiency_level": "advanced",
+      "years_experience": 0
+    },
+    {
+      "skill": "MinIO",
+      "proficiency_level": "advanced",
+      "years_experience": 0
+    },
+    {
+      "skill": "Java",
+      "proficiency_level": "intermediate",
+      "years_experience": 0
+    },
+    {
+      "skill": "FastAPI",
+      "proficiency_level": "advanced",
+      "years_experience": 0
+    },
+    {
+      "skill": "Docker",
+      "proficiency_level": "advanced",
+      "years_experience": 0
+    },
+    {
+      "skill": "REST APIs",
+      "proficiency_level": "intermediate",
+      "years_experience": 0
+    },
+    {
+      "skill": "ROS2",
+      "proficiency_level": "advanced",
+      "years_experience": 0
+    },
+    {
+      "skill": "MQTT",
+      "proficiency_level": "intermediate",
+      "years_experience": 0
+    },
+    {
+      "skill": "WebSocket",
+      "proficiency_level": "intermediate",
+      "years_experience": 0
+    },
+    {
+      "skill": "RTSP/RTMP",
+      "proficiency_level": "intermediate",
+      "years_experience": 0
+    },
+    {
+      "skill": "Git",
+      "proficiency_level": "advanced",
+      "years_experience": 0
+    },
+    {
+      "skill": "GitHub",
+      "proficiency_level": "advanced",
+      "years_experience": 0
+    },
+    {
+      "skill": "Figma",
+      "proficiency_level": "intermediate",
+      "years_experience": 0
+    },
+    {
+      "skill": "NVIDIA Jetson",
+      "proficiency_level": "advanced",
+      "years_experience": 0
+    },
+    {
+      "skill": "Linux (Shell)",
+      "proficiency_level": "advanced",
+      "years_experience": 0
+    },
+    {
+      "skill": "Agile/Scrum",
+      "proficiency_level": "intermediate",
+      "years_experience": 0
+    },
+    {
+      "skill": "Product Lifecycle Management",
+      "proficiency_level": "intermediate",
+      "years_experience": 0
+    },
+    {
+      "skill": "Growth Strategy",
+      "proficiency_level": "intermediate",
+      "years_experience": 0
+    },
+    {
+      "skill": "Technical Documentation",
+      "proficiency_level": "intermediate",
+      "years_experience": 0
+    }
+  ],
+  "work_experience": [
+    {
+      "company": "KSMS TECHNOLOGIES SOLUTIONS Pvt. Ltd.",
+      "role": "AI/ML Engineer & Former Intern",
+      "duration": "June 2024 \u2013 Present",
+      "industry": "AI/ML Solutions, Software Development",
+      "responsibilities": [
+        "Developed a Graph-RAG Agent integrating Neo4j with SAP ERP data, enabling Text-to-SQL/Cypher capabilities to autonomously execute complex multi-table joins.",
+        "Architected a high-throughput IDP Pipeline for engineering RFQs using PaddleOCR served via FastAPI, implementing geometric alignment and layout-preserving Markdown conversion to feed LLM inference.",
+        "Engineered a Hybrid Extraction Logic combining GenAI reasoning with a Spatial Template System, achieving sub-second processing for recurring drawing layouts by bypassing redundant LLM calls.",
+        "Built an industrial Multimodal RAG System leveraging LLaMA 3 (8B/70B), MinIO, and VectorDB, deploying hierarchical retrieval to achieve machine-level semantic accuracy across maintenance documents.",
+        "Consolidated Edge AI Perception on NVIDIA Jetson (ROS2), fusing GroundingDINO, SAM, and RGB-D data for open-vocabulary navigation while managing YOLOv8 training pipelines."
+      ],
+      "achievements": [
+        {
+          "description": "Reduced query retrieval time by 40% by developing a Graph-RAG Agent.",
+          "impact_metric": "40% reduction in query retrieval time",
+          "tools_used": [
+            "Neo4j",
+            "SAP ERP",
+            "Text-to-SQL/Cypher"
+          ]
+        },
+        {
+          "description": "Achieved sub-second processing for recurring drawing layouts by engineering a Hybrid Extraction Logic.",
+          "impact_metric": "sub-second processing",
+          "tools_used": [
+            "GenAI",
+            "Spatial Template System",
+            "LLM"
+          ]
+        },
+        {
+          "description": "Achieved machine-level semantic accuracy across maintenance documents by building an industrial Multimodal RAG System.",
+          "impact_metric": "machine-level semantic accuracy",
+          "tools_used": [
+            "LLaMA 3 (8B/70B)",
+            "MinIO",
+            "VectorDB"
+          ]
+        }
+      ]
+    },
+    {
+      "company": "VIT Trekking Club",
+      "role": "Director Of Finance",
+      "duration": "Feb. 2023 \u2013 Feb. 2024",
+      "industry": "Student Organization, Recreation",
+      "responsibilities": [
+        "Managed annual budget allocation and secured corporate sponsorships, optimizing funds.",
+        "Enforced financial compliance and directed internal audits, streamlining resource management and reporting standards."
+      ],
+      "achievements": [
+        {
+          "description": "Optimized funds to increase event scale and revenue.",
+          "impact_metric": "20% increase in event scale and revenue",
+          "tools_used": []
+        }
+      ]
+    },
+    {
+      "company": "Zyvka Global Services",
+      "role": "Junior Data Analyst",
+      "duration": "May 2023 \u2013 July 2023",
+      "industry": "Data Analytics, Consulting",
+      "responsibilities": [
+        "Analyzed market data to identify growth vectors and translate complex datasets into strategic insights.",
+        "Visualized financial KPIs and performance trends to drive data-informed decision-making."
+      ],
+      "achievements": []
+    },
+    {
+      "company": "onTribe",
+      "role": "Business Development & Growth Strategist",
+      "duration": "Feb. 2021 \u2013 Sep. 2021",
+      "industry": "Business Development, Technology Startup",
+      "responsibilities": [
+        "Executed a Go-to-Market strategy that expanded client acquisition and established sustainable B2B partnerships.",
+        "Led team enablement workshops on operational workflows and lead generation, streamlining the sales funnel."
+      ],
+      "achievements": []
+    },
+    {
+      "company": "Entrepreneurship Cell, VIT",
+      "role": "Operations Manager",
+      "duration": "Dec. 2020 \u2013 June 2022",
+      "industry": "Student Organization, Event Management",
+      "responsibilities": [
+        "Orchestrated logistics for large-scale entrepreneurial summits, managing vendor relations and critical event timelines.",
+        "Optimized operational workflows and led the recruitment drive, structuring training modules for student volunteers."
+      ],
+      "achievements": []
+    }
+  ],
+  "major_projects": [
+    {
+      "name": "Enterprise Graph-RAG & Text-to-SQL for SAP ERP",
+      "problem_statement": "Enabling high-fidelity semantic retrieval and natural-language querying across complex SAP ERP datasets.",
+      "solution_summary": "Modeled complex SAP ERP relational schemas into Neo4j and built an end-to-end Graph-RAG backend. Engineered a Text-to-SQL/Cypher orchestration layer on on-prem NVIDIA DGX systems. Integrated Azure SSO (OIDC/SAML) and hardened FastAPI middleware.",
+      "technologies": [
+        "Neo4j",
+        "LangGraph",
+        "LLM: Nemotron 253",
+        "NVIDIA DGX",
+        "FastAPI",
+        "Azure SSO"
+      ],
+      "measurable_outcomes": "Achieved sub-second latency for autonomous multi-table joins. Supported thousands of concurrent enterprise requests under strict security constraints.",
+      "business_impact": "Enabled natural-language queries to execute autonomous multi-table joins and high-fidelity semantic retrieval across deeply joined enterprise datasets."
+    },
+    {
+      "name": "Intelligent Document Processing (IDP) for Engineering RFQs",
+      "problem_statement": "Developing a high-throughput OCR and metadata extraction pipeline for heterogeneous engineering drawings with cost optimization.",
+      "solution_summary": "Built a high-throughput OCR and metadata extraction pipeline for heterogeneous engineering drawings using PaddleOCR and optimized FastAPI services. Developed computer vision algorithms for deskewing, region segmentation, and spatial coordinate mapping. Implemented a spatial template-matching engine to bypass LLM inference for recurring formats.",
+      "technologies": [
+        "PaddleOCR",
+        "FastAPI",
+        "OpenCV",
+        "LLM",
+        "Python",
+        "Docker"
+      ],
+      "measurable_outcomes": "Optimized FastAPI services for internal scale. Significantly reduced compute cost on local hardware.",
+      "business_impact": "Enabled consistent extraction across variable customer layouts and efficient processing of engineering RFQs."
+    },
+    {
+      "name": "Industrial-Grade Maintenance Chatbot (Sovereign AI)",
+      "problem_statement": "Providing a domain-grounded troubleshooting chatbot for industrial clients with sovereign data control.",
+      "solution_summary": "Architected a fully on-prem RAG backend deployed on NVIDIA DGX servers. Orchestrated ingestion from MinIO and MongoDB and indexed maintenance documentation with Nemotron-based retrieval. Delivered a production-ready chatbot with hierarchical chunking, vector search, and Azure SSO.",
+      "technologies": [
+        "MinIO",
+        "VectorDB",
+        "On-Prem LLM",
+        "NVIDIA DGX",
+        "MongoDB",
+        "Azure AD"
+      ],
+      "measurable_outcomes": "Adopted by 100+ field technicians.",
+      "business_impact": "Ensured sovereign data control for industrial clients and provided domain-grounded troubleshooting."
+    },
+    {
+      "name": "Edge AI & Perceptual Navigation for Quadruped Robotics",
+      "problem_statement": "Enabling autonomous navigation for quadruped robotics via text prompts and accurate spatial goal poses with real-time obstacle avoidance.",
+      "solution_summary": "Deployed zero-shot visual grounding on NVIDIA Jetson within a ROS2 stack. Integrated SAM2 with RealSense RGB-D to construct a semantic object map in Neo4j. Optimized the real-time perception-to-control pipeline.",
+      "technologies": [
+        "ROS2",
+        "NVIDIA Jetson",
+        "GroundingDINO",
+        "SAM2",
+        "RealSense",
+        "Neo4j"
+      ],
+      "measurable_outcomes": "Achieved an 87% target reacquisition rate. Enabled navigation to spatial goal poses with 15cm accuracy. Reduced detection latency to 120ms for high-speed obstacle avoidance.",
+      "business_impact": "Enabled autonomous navigation and high-speed obstacle avoidance for quadruped robotics."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Integrated M.Tech. in Computer Science and Engineering (Data Science)",
+      "institution": "Vellore Institute of Technology",
+      "year": "2025",
+      "notable_coursework": []
+    },
+    {
+      "degree": "Higher Secondary Education (Class XII)",
+      "institution": "Delhi Public School Meerut",
+      "year": "2020",
+      "notable_coursework": []
+    },
+    {
+      "degree": "Secondary Education (Class X)",
+      "institution": "Delhi Public School Meerut",
+      "year": "2018",
+      "notable_coursework": []
+    }
+  ],
+  "certifications": [
+    "ROS2 for Beginners (Foxy + Humble)",
+    "Hands-On AI: Build Your Own GPTs",
+    "Agentic AI: Planning and Execution",
+    "Microsoft Security, Compliance, and Identity Fundamentals",
+    "Getting Started with Enterprise Data Science",
+    "Journey to Cloud",
+    "Product Management: Building a Product Roadmap",
+    "Digital Marketing Foundations"
+  ],
+  "leadership_experience": [
+    {
+      "role": "Director Of Finance",
+      "organization": "VIT Trekking Club",
+      "impact": "Managed annual budget allocation, secured corporate sponsorships, optimized funds to increase event scale and revenue by 20%, enforced financial compliance, and directed internal audits."
+    },
+    {
+      "role": "Business Development & Growth Strategist",
+      "organization": "onTribe",
+      "impact": "Executed a Go-to-Market strategy that expanded client acquisition and established sustainable B2B partnerships. Led team enablement workshops on operational workflows and lead generation."
+    },
+    {
+      "role": "Operations Manager",
+      "organization": "Entrepreneurship Cell, VIT",
+      "impact": "Orchestrated logistics for large-scale entrepreneurial summits, managing vendor relations and critical event timelines. Optimized operational workflows and led the recruitment drive, structuring training modules for student volunteers."
+    },
+    {
+      "role": "Developer (Swarm Robotics)",
+      "organization": "Inter IIT Tech Fest (IIT Mumbai)",
+      "impact": "Developed a ROS2-based centralized OS for swarm navigation, enabling real-time communication among autonomous agents via MQTT/WebSockets. Implemented graph-based path planning and multi-agent SLAM for collaborative mapping, integrating LiDAR and vision-based perception for obstacle avoidance."
+    },
+    {
+      "role": "Volunteer & Campus Ambassador",
+      "organization": "TEDxVITChennai \u2014 E-Cell IIT Guwahati",
+      "impact": "Selected in the top 5% of applicants to facilitate production and speaker hospitality for TEDxVITChennai. Spearheaded outreach campaigns as the primary Student Liaison for IIT Guwahati\u2019s entrepreneurship initiatives at VIT."
+    },
+    {
+      "role": "UI/UX Designer",
+      "organization": "Rotaract Club, VIT (Sociothon 2.0)",
+      "impact": "Designed 'AURA,' a mobile application interface providing a one-stop solution for the safe disposal of PPE kits during the COVID-19 pandemic."
+    },
+    {
+      "role": "Operations Core",
+      "organization": "E-Summit 2022 VIT",
+      "impact": "Managed logistics and vendor coordination for the university\u2019s flagship Business Conclave hosting 500+ delegates."
+    }
+  ]
+}
