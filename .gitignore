@@ -1,6 +1,30 @@
-# Ignore all .txt files
+# Ignore all .txt files except requirements.txt
 *.txt
+!requirements.txt
 
 # Ignore virtual environment folders
 .venv/
-env/
+.env
+
+# Next.js
+.next/
+out/
+
+# Node
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Vercel
+.vercel/
+
+# Personal data — never commit these
+resume.pdf
+resume.docx
+my_profile.json
+
+# OS junk
+.DS_Store
