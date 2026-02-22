@@ -59,16 +59,6 @@ Open **http://localhost:3000**
 
 ---
 
-## Deploying to Vercel
-
-1. Push this repo to GitHub
-2. Import the project at [vercel.com](https://vercel.com)
-3. Add environment variables in Vercel dashboard:
-   - `GEMINI_API_KEY` = your Gemini API key
-   - `NEXT_PUBLIC_API_URL` = *(leave empty — same origin on Vercel)*
-4. Deploy ✅
-
----
 
 ## Project Structure
 
