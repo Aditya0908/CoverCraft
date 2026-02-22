@@ -8,6 +8,11 @@ import toast from 'react-hot-toast';
 // In production on Vercel, NEXT_PUBLIC_API_URL is unset so /api/* hits the same origin.
 const API_BASE = process.env.NEXT_PUBLIC_API_URL || '';
 
+// Safely parse JSON — returns null if body is empty or not JSON (e.g. Vercel 504 timeout).
+async function safeJson(res) {
+    try { return await res.json(); } catch { return null; }
+}
+
 // ─── Animation Variants ────────────────────────────────────────────────────────
 const fadeUp = {
     hidden: { opacity: 0, y: 28 },
@@ -205,8 +210,8 @@ export default function Home() {
             fd.append('file', file);
             const res = await fetch(`${API_BASE}/api/upload-resume`, { method: 'POST', body: fd });
             if (!res.ok) {
-                const err = await res.json();
-                throw new Error(err.detail || 'Upload failed');
+                const err = await safeJson(res);
+                throw new Error(err?.detail || `Server error ${res.status} — check your API key and try again.`);
             }
             const data = await res.json();
             // Inject YoE
@@ -270,8 +275,8 @@ export default function Home() {
                 }),
             });
             if (!genRes.ok) {
-                const err = await genRes.json();
-                throw new Error(err.detail || 'Generation failed');
+                const err = await safeJson(genRes);
+                throw new Error(err?.detail || `Server error ${genRes.status} — generation failed.`);
             }
             const genData = await genRes.json();
             setCoverLetter(genData.cover_letter);
@@ -301,7 +306,7 @@ export default function Home() {
                     candidate_profile: profile,
                 }),
             });
-            if (!res.ok) { const e = await res.json(); throw new Error(e.detail); }
+            if (!res.ok) { const e = await safeJson(res); throw new Error(e?.detail || `Server error ${res.status}`); }
             const data = await res.json();
             setCoverLetter(data.cover_letter);
             setCustomInstruction('');
